@@ -1,0 +1,12 @@
+package com.vacc.center.entity;
+
+import java.util.List;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class RequiredResponse {
+
+	private VaccinationCenter center;
+	private List<Citizen> citizens;
+}

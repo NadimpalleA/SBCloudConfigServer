@@ -1,0 +1,5 @@
+package com.programming.techie.entity;
+
+public class Inventory {
+
+}

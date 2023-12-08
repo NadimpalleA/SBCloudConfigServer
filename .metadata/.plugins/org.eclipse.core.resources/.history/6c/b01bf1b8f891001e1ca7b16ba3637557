@@ -1,0 +1,8 @@
+package com.programming.techie.entity;
+
+@Document(value="Product")
+@Data
+@Builder
+public class Product {
+
+}

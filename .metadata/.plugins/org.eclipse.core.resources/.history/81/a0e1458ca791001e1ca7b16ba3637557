@@ -1,0 +1,8 @@
+package com.vacc.center.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class RequiredResponse {
+
+}

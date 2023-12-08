@@ -1,0 +1,20 @@
+package com.vacc.center;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+@SpringBootApplication
+public class VaccinationCenterApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(VaccinationCenterApplication.class, args);
+		System.out.println("Vaccination Center App");
+	}
+	
+	@Bean
+	public RestTemplate getRestTemplate() {
+		return new RestTemplate();
+	}
+
+}

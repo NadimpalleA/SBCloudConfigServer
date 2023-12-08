@@ -1,0 +1,5 @@
+package com.vacc.center.controller;
+
+public class VaccinationCenterController {
+
+}

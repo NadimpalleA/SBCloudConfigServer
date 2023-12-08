@@ -1,0 +1,5 @@
+package com.programming.techie.repo;
+
+public interface ProductRepo extends MongoRepository<Product,Integer> {
+
+}

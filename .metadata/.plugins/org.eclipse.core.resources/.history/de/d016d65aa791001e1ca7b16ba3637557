@@ -1,0 +1,6 @@
+package com.vacc.center.entity;
+
+@Entity
+public class RequiredResponse {
+
+}

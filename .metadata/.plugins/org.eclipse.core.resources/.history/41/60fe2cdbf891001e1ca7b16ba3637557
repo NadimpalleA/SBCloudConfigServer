@@ -1,0 +1,13 @@
+package com.programming.techie.entity;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Document(value="Product")
+@Data
+@Builder
+public class Product {
+
+}

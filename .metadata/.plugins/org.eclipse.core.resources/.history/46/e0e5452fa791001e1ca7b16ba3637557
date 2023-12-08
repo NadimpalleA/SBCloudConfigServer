@@ -1,0 +1,5 @@
+package com.vacc.center.entity;
+
+public class Citizen {
+
+}

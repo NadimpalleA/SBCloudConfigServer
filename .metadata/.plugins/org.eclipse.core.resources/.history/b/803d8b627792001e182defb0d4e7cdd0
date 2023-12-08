@@ -1,0 +1,5 @@
+package com.programming.techie.repo;
+
+public interface InventoryRepo extends JPARepository<Inventory,Long>{
+
+}
