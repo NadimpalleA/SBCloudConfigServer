@@ -1,0 +1,8 @@
+server.port=0
+server.port= ${random.int(8080,8084)}
+# eureka.instance.instance-id=${spring.application.name}:${random.uuid}
+spring.application.name=PRODUCT-SERVICE
+spring.data.mongodb.uri=mongodb://localhost:27017/product-service
+
+#eureka.client.fetch-registry=false
+#eureka.client.register-with-eureka=false
