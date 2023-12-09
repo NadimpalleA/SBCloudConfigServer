@@ -11,7 +11,7 @@ public class ProductServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProductServiceApplication.class, args);
-		System.out.println("Product service with connected to MongoDB");
+		System.out.println("This is Product service App its connected to MongoDB");
 	}
 
 }
